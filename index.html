@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="To-do list for JS class" />
+    <meta name="author" content="Michael Blakley" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/06ae1c778f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>List Maker</title>
+  </head>
+  <body>
+    <h1 class="headerTitle">- List Maker -</h1>
+    <section class="inputArea">
+      <div class="inputContainer">
+        <h2>Enter an item</h2>
+        <input type="text" class="inputBox" />
+        <button class="inputSubmit">Put it on the list!</button>
+      </div>
+      <div class="instructionContainer">
+        <h2>Instructions</h2>
+        <ul>
+          <li>
+            1. Add items to the input box and submit them to add them to the
+            list. Pretty simple.
+          </li>
+          <li>
+            2. Remove items by hovering over the item and clicking the button
+            that pops up. There's no undo button, so make sure you're sure.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="listSection">
+      <h1>List</h1>
+      <div class="listArea">
+        <ul class="listItems"></ul>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
